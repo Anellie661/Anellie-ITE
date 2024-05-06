@@ -4,6 +4,7 @@
     <h1>Create New List Item</h1>
     <v-form @submit.prevent="handleSubmit" style="display: block !important">
     <v-container>
+        . 
     <v-row>
     <v-col cols="12" md="6">
     <v-text-field v-model="formData.id" label="ID" required></v-text-field>
